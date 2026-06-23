@@ -16,11 +16,35 @@ main {
 
 h1 {
   font-size: 3rem;
+  margin-bottom: var(--space-lg);
 }
 p {
+  text-align: center;
+  text-indent: 5em;
   margin-bottom: var(--space-sm);
 }
 h2 {
+  font-size: 2rem;
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-lg);
+}
+h3 {
   margin-top: var(--space-lg);
   margin-bottom: var(--space-sm);
+}
+.navbar {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 2rem;
+}
+.navbar a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
 }
