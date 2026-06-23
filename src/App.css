@@ -1,0 +1,26 @@
+body {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+:root {
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 32px;
+  --space-xl: 64px;
+}
+main {
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 3rem;
+}
+p {
+  margin-bottom: var(--space-sm);
+}
+h2 {
+  margin-top: var(--space-lg);
+  margin-bottom: var(--space-sm);
+}
