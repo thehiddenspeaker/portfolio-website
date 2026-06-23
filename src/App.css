@@ -20,7 +20,7 @@ h1 {
 }
 p {
   text-align: center;
-  text-indent: 5em;
+  /*text-indent: 5em;*/
   margin-bottom: var(--space-sm);
 }
 h2 {
